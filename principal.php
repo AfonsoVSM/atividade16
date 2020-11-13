@@ -1,0 +1,12 @@
+$nome1 = $_POST('txt_nome');
+$idade1 = $_POST('txt_idade');
+
+setcookie('nome', $nome1, (time() + (20)));
+setcookie('idade', $idade1, (time() + (20)));
+
+echo "Nome; ".$nome1"<br>";
+echo "Idade; ".$idade1"<br>";
+
+echo "<a href='formulario.html'><h5><b>Voltar</b></h5></a>;
+echo "<a href='Visitante1.phpl'><h5><b>Visitante</b></h5></a>;
+echo "<a href='Visitante2.php'><h5><b>Voltar</b></h5></a>;
